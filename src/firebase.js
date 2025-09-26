@@ -4,12 +4,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: 'REPLACE_WITH_YOUR_APIKEY',
-  authDomain: 'REPLACE_WITH_YOUR_AUTHDOMAIN',
-  projectId: 'REPLACE_WITH_YOUR_PROJECTID',
-  storageBucket: 'REPLACE_WITH_YOUR_STORAGEBUCKET',
-  messagingSenderId: 'REPLACE_WITH_YOUR_MESSAGINGSENDERID',
-  appId: 'REPLACE_WITH_YOUR_APPID'
+  apiKey: "AIzaSyBY00_FIB1MaS4IwUhXeIL14_pqZ_AYnyg",
+  authDomain: "sim-empresa.firebaseapp.com",
+  projectId: "sim-empresa",
+  storageBucket: "sim-empresa.firebasestorage.app",
+  messagingSenderId: "922527455053",
+  appId: "1:922527455053:web:4d2ba4ebf131e48a224904",
+  measurementId: "G-23NC8SPXQM"
 };
 
 const app = initializeApp(firebaseConfig);
